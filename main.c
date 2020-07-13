@@ -46,7 +46,7 @@ typedef struct listNode list;
 // 4) list node for a buffer
 struct listNode2 {
  char *data;                 /*key*/
- struct listNode2 *next;     /*pointer to next node/
+ struct listNode2 *next;     /*pointer to next node*/
 };
 typedef struct listNode2 list2;
 
