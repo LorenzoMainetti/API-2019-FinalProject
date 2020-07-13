@@ -38,7 +38,7 @@ struct listNode {
  int max;                    /*max number of relations received*/
  treeNode1 *report;          /*pointer to the root of the report tree*/
  treeNode2 *dest;            /*pointer to the root of the recipients tree*/
- struct listNode *next;      /*puntatore al nodo successivo*/
+ struct listNode *next;      /*pointer to next node*/
 };
 typedef struct listNode list;
 
