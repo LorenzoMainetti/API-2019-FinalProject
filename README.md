@@ -49,7 +49,8 @@ Each node contains:
 * RB-tree of Origins 
 
 The RB-tree of Origins keeps track of the entities from which that relation is received.
-N.B. the RB-tree of Origins has the same structure of the RB-tree of Entities
+
+N.B. the RB-tree of Origins has the same structure of the RB-tree of Entities.
 
 #### 4) Linked List as a temporary Buffer
 This structure helps handle the *delent* command, when this is called on a entity that is part of a RB-tree of Origins. It keeps trace of entities that has to be deleted from the Dest RB-tree and the Report RB-tree when an Origin has been deleted.
