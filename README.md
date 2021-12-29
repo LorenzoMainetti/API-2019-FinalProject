@@ -1,7 +1,7 @@
 # Algorithms and Data Structures Final Project - a.y. 2018-2019
 The aim of the project is to design and implement a system for monitoring **relationships** between **entities**. 
 The application, written in standard C language, is optimized to handle a great number of relations and entities, but generally few types of relationships. 
-The instance to handle is given as a text file, read from *standard input*, that contains a list of commands, each one representing a change in the entities monitored or in the relations beetween them.
+The instance to handle is given as a text file, read from *standard input*, that contains a list of commands, each one representing a change in the entities monitored or in the relations between them.
 
 The accepted commands are:
 |Command|Description|
