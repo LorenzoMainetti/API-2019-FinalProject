@@ -1,2 +1,2 @@
-test/* linguist-documentation
-specs/* linguist-documentation
+test/* linguist-documentation=true
+specs/* linguist-documentation=true
